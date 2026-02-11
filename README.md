@@ -1,37 +1,28 @@
 ## Project Title
 
-GBDA302 Week 4 Example 5: Blob Platformer (JSON + Classes)
+Level(s) and platformers
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
-
----
+## Emerson Sanchez
 
 ## Description
 
-This matches the structure of the original blob sketch from Week 2 but moves
-details into classes.
+The player uses WASD or the arrow keys to move the blob. Space bar makes the blob jump to the different platforms that are loaded with a loop. pressing n will change the level and the gravity of the blob.
 
 ---
 
-## Learning Goals
+## LSetup and Information Instructions
 
-Learning Goals:
-
-- - load JSON in preload()
-- create WorldLevel from JSON
-- create BlobPlayer
-- update + draw each frame
-- handle input events (jump, optional next level)
+use WASD to move, use space or "w" to jump. Press n to go to the next level.
 
 ---
 
-## Assets
+## Itertation Note
 
-N/A
+Added a new level with gravity changes.
 
 ---
 
