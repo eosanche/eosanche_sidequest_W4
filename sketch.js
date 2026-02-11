@@ -20,6 +20,7 @@ let levelIndex = 0;
 
 let world; // WorldLevel instance (current level)
 let player; // BlobPlayer instance
+const levels = ["Level 1 - Intro", "Level 2 - Higher Jumps"];
 
 function preload() {
   // Load the level data from disk before setup runs.
@@ -51,6 +52,11 @@ function draw() {
   fill(0);
   text(world.name, 10, 18);
   text("Move: A/D or ←/→ • Jump: Space/W/↑ • Next: N", 10, 36);
+
+  fill("#21a6ca");
+  for (let i = 0; i < levels.length; i++) {
+    text(levels[i], 10, 60 + i * 18);
+  }
 }
 
 function keyPressed() {
